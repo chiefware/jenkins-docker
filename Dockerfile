@@ -1,4 +1,4 @@
-FROM jenkins:alpine:latest
+FROM jenkins:latest-alpine
 
 RUN apk add --no-cache docker
 
